@@ -2,7 +2,7 @@ import  { useState, useEffect } from 'react';
 import { Search, Calendar, User, Plus, Edit, Trash2, ExternalLink, Filter, LogOut, XCircle } from 'lucide-react';
 import './App.css'; // Import your custom styles
 import { useAuth } from './AuthWrap';
-const API_BASE = 'http://localhost:5050/api';
+const API_BASE = 'https://devnest.blogs.server.armanm.tech/api';
 
 function App() {
   type BlogType = {

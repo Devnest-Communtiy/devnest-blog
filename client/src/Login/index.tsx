@@ -20,7 +20,7 @@ export default function Web3LoginPage() {
       return;
     }
     try {
-      const response = await fetch('http://localhost:5050/api/admins/login', {
+      const response = await fetch('https://devnest.blogs.server.armanm.tech/api/admins/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -8,7 +8,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
             try {
                 const token = await sessionStorage.getItem('token');
                 if (token) {
-                    const response = await fetch('http://localhost:5050/api/auth', {
+                    const response = await fetch('https://devnest.blogs.server.armanm.tech/api/auth', {
                         method: 'GET',
                         headers: {
                             'Content-Type': 'application/json',
